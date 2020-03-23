@@ -3,10 +3,18 @@
   min-width: 80%;
   margin: auto;
 }
+
 html{
   height: 100%;
-  overflow: hidden;
+  overflow-y: scroll;
   background: radial-gradient(ellipse at bottom,#162425 0%, #0a1314 100% );
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+body{
+  background-color: transparent !important;
+  text-decoration: none;
 }
 .header {
   overflow: hidden;
@@ -15,8 +23,13 @@ html{
   padding: 10px 5px;
   font-weight: bold;
   font-size: 20px;
+  background-color: grey;
 }
-
+.landing{
+  text-align: center;
+  height:100vh;
+  padding: 0%;
+}
 .name{
   color: white;
   text-align: center;
@@ -31,15 +44,15 @@ html{
   font-family: "Indie Flower", cursive;
   padding: 0%;
 }
-
-.moon {
-  width: 100px;
-  height: 100px;
-  font-size: 20px;
-  text-align: center;
-  background-image: url('../images/moon.png');
+#aboutMe{
+  height: 500px;
 }
-
+#skills{
+  height: 500px;
+}
+#projects{
+  height: 500px;
+}
 #stars {
   width: 1px;
   height: 1px;
